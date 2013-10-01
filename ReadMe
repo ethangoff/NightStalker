@@ -1,0 +1,9 @@
+Jailbreak - a Night Stalker Clone
+Written by Ethan Goff, April 2013
+
+
+This game uses darkGDK to implement a clone of the 1982 game "Night Stalker" for the intellivision (All rights reserved by the Mattell Corporation). 
+
+To Run/Test the game, download the binary executable, along with the /Graphics and /Sounds directories, and run the executable.
+
+Compilation and debugging of the source code requires the installation and configurement the use of the darkGDK libraries, available at http://www.thegamecreators.com/?m=view_product&id=2128.
