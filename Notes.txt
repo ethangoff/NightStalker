@@ -1,0 +1,26 @@
+Notes.txt - Jailbreak Project Summary
+Written by Ethan Goff, April 2013
+
+
+Metrics Summary:
+Lines - 3044
+Lines (minus comments and whitespace) - 1727
+Uses 73 images, 4 sounds
+
+
+
+Object Management Class Hierarchy (* denotes virtual SuperClass):
+	SpriteObject*
+		Player
+		Bullet
+		Gun
+		AICharacter*
+			FirstRobot
+			Bat
+			Spider	
+
+
+
+Sound Sources
+http://www.youtube.com/watch?v=pKOGVJw6X5A
+http://www.youtube.com/watch?v=prGARfvTk8o

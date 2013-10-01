@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{c4429157-9554-4cea-a4d6-504bf688b70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared Resources">
+      <UniqueIdentifier>{06041b2d-1986-42df-94db-f2de09eedde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{c8190438-27fa-40ff-9d20-ad9bc9a2b140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\AIs">
+      <UniqueIdentifier>{2218e27e-57f0-4f96-966d-61d138985323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managment/Control">
+      <UniqueIdentifier>{865058e6-af1b-4ed5-959b-704360d7e8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{33c2836e-6d2c-44ab-bf19-4bc7b8c1d299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared Resources">
+      <UniqueIdentifier>{e78e66ba-4559-49cb-a576-9798d83c5132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Management/Control">
+      <UniqueIdentifier>{467a676d-6ac1-409a-8dce-e8878eec0e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\AIs">
+      <UniqueIdentifier>{576514da-9522-4082-a886-7e3718db1aac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleStructs.cpp">
+      <Filter>Source Files\Shared Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Management/Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Atlas.cpp">
+      <Filter>Source Files\Management/Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstRobot.cpp">
+      <Filter>Source Files\Objects\AIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Source Files\Objects\AIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Source Files\Objects\AIs</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTools.cpp">
+      <Filter>Source Files\Shared Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files\Shared Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTools.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleStructs.h">
+      <Filter>Header Files\Shared Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Managment/Control</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTools.h">
+      <Filter>Header Files\Shared Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Atlas.h">
+      <Filter>Header Files\Managment/Control</Filter>
+    </ClInclude>
+    <ClInclude Include="AICharacter.h">
+      <Filter>Header Files\Objects\AIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Header Files\Objects\AIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Header Files\Objects\AIs</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstRobot.h">
+      <Filter>Header Files\Objects\AIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Notes.txt">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
